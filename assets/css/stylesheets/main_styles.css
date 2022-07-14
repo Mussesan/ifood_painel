@@ -11,15 +11,53 @@ svg {
     font-size: 16px;    
     height: 3em;    
 }
+*::selection {
+    background: #ff0000;
+    color: white;
+}
 
 /*** GLOBAL ***/
 
-#hamburger-div {
+#hamburger-box {
     background-color: #ea1d2c;
     border-radius: 20px;
 }
 
-#shoppingcar-div {
+#shoppingcar-box {
     background-color: #b6d048;
     border-radius: 20px;
 }
+/* Hoovers Hamburger e Shopping Car */
+
+#hamburger-box:hover {
+    transform: scale(1.04);
+}
+
+#shoppingcar-box:hover {
+    transform: scale(1.04);
+} 
+
+/* ------ */
+#bebidas-img {
+    background-color: #f6d553;
+    border-radius: 15px
+}
+#farmacia-img {
+    background-color: #f9879c;
+    border-radius: 15px
+}
+#petshop-img {
+    background-color: #8c60c5;
+    border-radius: 15px;
+}
+/* Hoover 3 itens carrosel */
+#bebidas-box:hover {
+        transform: scale(1.04);
+}
+#farmacia-box:hover {
+    transform: scale(1.04);
+}
+#petshop-box:hover {
+    transform: scale(1.04);
+}
+
