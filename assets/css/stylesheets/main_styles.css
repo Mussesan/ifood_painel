@@ -14,10 +14,12 @@ svg {
 
 /*** GLOBAL ***/
 
-#hamburger-img {
+#hamburger-div {
     background-color: #ea1d2c;
+    border-radius: 20px;
 }
 
-#shopping-car-img {
+#shoppingcar-div {
     background-color: #b6d048;
+    border-radius: 20px;
 }
