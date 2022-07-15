@@ -50,7 +50,7 @@ svg {
     background-color: #8c60c5;
     border-radius: 15px;
 }
-/* Hoover 3 itens carrosel */
+
 #bebidas-box:hover {
         transform: scale(1.04);
 }
@@ -61,3 +61,68 @@ svg {
     transform: scale(1.04);
 }
 
+hr {
+	border: 0;
+    float: center;
+    margin-left: 2em;
+    max-width: 95%;
+	border-top: 1px solid #747474;
+}
+
+/* Carousel start at line 197 end  */
+
+.carousel-container-flex {
+    width: 95%;
+    margin: 50px auto;
+    min-height: auto;
+}
+
+.carousel-container-flex .card-container {
+    width: 224px;
+    height: 132px;
+    margin: auto;
+    border: 1px solid #dcdcdc;
+    border-radius: 11px;
+}
+
+.card-container-text1 {
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+.card-container-text2 {
+    font-size: 12px;
+    color: #717171;
+    padding-left: 13px;
+}
+
+.carousel-img {
+    min-width: 56px;
+    max-width: 56px;  
+    border-radius: 50px;
+}
+
+.svg-container-icon {
+    width: 13px;
+    height: 13px;
+}
+
+.btn-carousel {
+    width: 33px;
+    height: 33px;
+    border: 1px #717171 solid;
+    border-radius: 50px;
+    position: sticky;
+    transform: translateY(-50%);
+
+}
+
+#lorem-ipsum {
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    padding-top: 50px;
+    text-align: justify;
+    text-justify: inter-word;
+    border: 2px solid #ff0000;
+}
