@@ -58,31 +58,64 @@ svg {
 }
 
 /* ------ */
-#bebidas-img {
+
+#farmacia-img {
+    content: "";
+}
+#petshop-img {
+    content: "";
+}
+
+/*  bkp cores
+
+    amarelo #f6d553
+    rosa    #f9879c
+    roxo    #8c60c5
+*/
+
+#bebidas-box {
     
 }
 
-#farmacia-img {
-    background-color: #f9879c;
-    border-radius: 15px
-}
-#petshop-img {
-    background-color: #8c60c5;
-    border-radius: 15px;
+#bebidas-box #bebidas-img {
+    background-color: #f6d553;
+    width: 177px;
+    height: 44px;
+    top: 70px;
 }
 
-#bebidas-img::after {
+#farmacia-img img::before {
     content:""
+}
+
+#petshop-img img::before {
+    content:""
+}
+
+#bebidas-box {
+    transform: scale(1.00);
+    transition: 0.20s all ease;
+}
+#farmacia-box {
+    transform: scale(1.00);
+    transition: 0.20s all ease;
+}
+#petshop-box {
+    transform: scale(1.00);
+    transition: 0.20s all ease;
 }
 
 #bebidas-box:hover {
         transform: scale(1.04);
+        transition: 0.20s all ease;
 }
 #farmacia-box:hover {
     transform: scale(1.04);
+    transition: 0.20s all ease;
 }
 #petshop-box:hover {
     transform: scale(1.04);
+    transition: 0.20s all ease;
 }
 
 hr {
