@@ -11,6 +11,11 @@ svg {
     font-size: 16px;    
     height: 3em;    
 }
+
+section {
+    width: 100%;
+}
+
 *::selection {
     background: #ff0000;
     color: white;
@@ -196,3 +201,5 @@ hr {
     max-height: 56px;
     border-radius: 50%;
 }
+
+
