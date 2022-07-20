@@ -190,3 +190,9 @@ hr {
     width: 224 px;
     border-radius: 50%;
 }
+
+.owl-figure img {
+    max-width: 56px;
+    max-height: 56px;
+    border-radius: 50%;
+}
