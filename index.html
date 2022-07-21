@@ -148,50 +148,52 @@
         </div>
     </br><br>
 
-    <div class="container-flex">
-        <div class="row justify-content-center align-items-center text-center">
-            <!-- Bebidas -->
-            <div
-            class="col-2" id="bebidas-box">
-                <figure id="bebidas-img">
-                    <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/drinks.png" alt="bebidas">
-                </figure>
-                <div class="row justify-content-center">
-                    <div class="col-auto p-3">
-                        <p class="fw-bolder text-center">Bebidas</p>
+    <div class="container-fluid">
+        <div class="row justify-content-center text-center mx-5 gap-5">
+
+            <div class="col-3 container-card"> <!--- Bebidas --->
+                <div class="row bebidas-bg">
+                    <div class="col-12">
+                        <figure>
+                            <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/drinks.png" alt="">
+                        </figure>
                     </div>
-                    <div class="col-1">
-                        <svg width="20px" height="20px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#3F3E3E" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></svg>
+                </div>
+                <div class="row">
+                    <div class="col-12 container-card">
+                        <span>Bebidas</span>
                     </div>
-                </div>                
-            </div>   
-            <!-- Farmacia -->
-            <div class="col-2 ms-5 me-5" id="farmacia-box">
-                <figure id="farmacia-img">
-                    <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/pharmacy.png" alt="farmacia">
-                </figure>
-                <div class="row justify-content-center">
-                    <div class="col-auto p-3">
-                        <p class="fw-bolder text-center">Farmacia</p>
+                </div>
+            </div>
+
+            <div class="col-3 container-card" id="farmacia-box"> <!--- Farmacia --->
+                <div class="row farmacia-bg">
+                    <div class="col-12">
+                        <figure>
+                            <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/pharmacy.png" alt="">
+                        </figure>
                     </div>
-                    <div class="col-1">
-                        <svg width="20px" height="20px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#3F3E3E" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></svg>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <span>Farmacia</span>
                     </div>
-                </div>                
-            </div>            
-            <!-- Petshop -->
-            <div class="col-2 text-center" id="petshop-box">                
-                <figure id="petshop-img">
-                    <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/petshop.png" alt="Farmacia">
-                </figure>                
-                <div class="row justify-content-center">
-                    <div class="col-auto p-3">
-                        <p class="fw-bolder text-center">Pet Shop</p>
+                </div>
+            </div>
+
+            <div class="col-3 container-card" id="petshop-box"> <!--- Petshop --->
+                <div class="row petshop-bg">
+                    <div class="col-12 ">
+                        <figure  style="z-index: 1;">
+                            <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/petshop.png" alt="">
+                        </figure>
                     </div>
-                    <div class="col-1">
-                        <svg width="20px" height="20px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#3F3E3E" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></svg>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <span>Petshop</span>
                     </div>
-                </div>                
+                </div>
             </div>
 
         </div>
@@ -357,7 +359,7 @@
             }-->
     
     <section> <!---------- OWL CAROUSEL  ------------->
-        <div class="container-flex my-5 mx-4 px-4">
+        <div class="container-flex my-5 mx-4 px-4" id="carousel2">
             <div class="row">
                 <div class="col-12">
                     <div class="owl-carousel owl-theme owl-figure row"> 
@@ -486,7 +488,7 @@
             $('.owl-carousel').owlCarousel({
                 loop: true,
                 margin: 15,
-                nav: true,                
+                nav: true,
                 responsive: {
                     0: {
                         items: 1
