@@ -67,55 +67,19 @@ section {
     rosa    #f9879c
     roxo    #8c60c5
 */
-.bebidas-bg {
-    background-color: #f6d553;
-    width: 188px;
-    height: 47px;
-    position: relative;
-}
 
-.farmacia-bg {
-    background-color: #f9879c;
-}
 
-.petshop-bg {
-    background-color: #8c60c5;
-}
 
 .container-card {
-    border-radius: 15px;
-}
-
-
-
-#bebidas-box {
     transform: scale(1.00);
     transition: 0.20s all ease;
 
 }
-#farmacia-box {
-    transform: scale(1.00);
-    transition: 0.20s all ease;
-
-}
-#petshop-box {
-    transform: scale(1.00);
-    transition: 0.20s all ease;
-
-}
-
-#bebidas-box:hover {
+.container-card:hover {
     transform: scale(1.04);
     transition: 0.20s all ease;
 }
-#farmacia-box:hover {
-    transform: scale(1.04);
-    transition: 0.20s all ease;
-}
-#petshop-box:hover {
-    transform: scale(1.04);
-    transition: 0.20s all ease;
-}
+
 
 hr {
 	border: 0;
