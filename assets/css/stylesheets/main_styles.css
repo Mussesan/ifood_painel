@@ -67,6 +67,7 @@ section {
     rosa    #f9879c
     roxo    #8c60c5
 */
+<<<<<<< HEAD
 
 .tree-box {
     position: relative;
@@ -106,11 +107,21 @@ section {
     transform: scale(1.00);
     transition: 0.20s all ease;
 
+=======
+
+
+
+.container-card {
+    transform: scale(1.00);
+    transition: 0.20s all ease;
+
+>>>>>>> d69cb9565cb348086d8c96be92887961e3ebbdb5
 }
 .container-card:hover {
     transform: scale(1.04);
     transition: 0.20s all ease;
 }
+
 
 hr {
 	border: 0;
