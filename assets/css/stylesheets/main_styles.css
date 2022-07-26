@@ -230,19 +230,44 @@ hr {
     border-radius: 50%;
 }
 
-.test-cont {
+.double-cards-delivery {
     margin-top: 100px;
     display: flex;
+    justify-content: center;
 }
 
-#entregadores {
-    width: 50%;
-    height: 600px;
-    border: #ea1d2c solid;
+/* Background image  */
+
+#entregadores, #estabelecimentos {
+    width: 45%;
+    height: 500px;
+    padding-top: 70px;
+    background-image: url('https://www.ifood.com.br/static/images/landing-v2/link-background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
 }
 
-#estabelecimentos {
-    width: 50%;
-    height: 600px;
-    border: #ea1d2c solid;
+#entregadores img, #estabelecimentos img {
+    padding-top: 135px;
+    width: 75%;
+    
+}
+
+#entregadores p, #estabelecimentos p {
+    color: #717171;
+}
+
+.double-cards-delivery a {
+    background-color: #ff0000;
+    border: #ff0000;
+    margin-top: 20px;
+}
+
+.double-cards-delivery a:hover {
+    background-color: #ff0000;
+    margin-top: 20px;
 }
