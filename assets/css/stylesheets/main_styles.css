@@ -5,6 +5,7 @@ body, html {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif, bold;
     text-decoration: none !important;
+    --vermelho-padrão-bg: #ea1d2c;
 }
 
 svg {
@@ -17,7 +18,7 @@ section {
 }
 
 *::selection {
-    background: #ff0000;
+    background: var(--vermelho-padrão-bg);
     color: white;
 }
 
@@ -27,11 +28,11 @@ section {
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: #ff0000;
+    background-color: var(--vermelho-padrão-bg);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: #ea1d2c;
+    background-color: var(--vermelho-padrão-bg);
     border-radius: 11px;
 }
 
@@ -44,12 +45,27 @@ section {
 
 }
 
+#right-menu .btn-criarconta {
+    color: var(--vermelho-padrão-bg);
+}
+
+#right-menu .btn-entrar {
+    background-color: var(--vermelho-padrão-bg);
+    color: white;
+    font-weight: 700;
+}
+
+#btn-buscar {
+    border-radius: 5px;
+    background-color: var(--vermelho-padrão-bg);
+}
+
 #hamburger-box {
     display: relative;
     height: 214px;
     width: 404px;
     margin: 0px 15px 0px 0px;
-    background-color: #ea1d2c;
+    background-color: var(--vermelho-padrão-bg);
     border-radius: 20px;
     transform: scale(1.00);
     transition: 0.20s all ease;
@@ -101,13 +117,13 @@ section {
 
 }
 
-#hamburger-box svg, #shopping-box svg {
+#hamburger-box .fa-chevron-right, #shopping-box .fa-chevron-right {
     position: absolute;
-    font-size: 5px;
-    color: white;
-    width: auto;
-    bottom: 40px;
-    left: 140px;
+    font-size: 12px;
+    font-weight: 900;
+    color: #FFFFFF;
+    bottom: 41px;
+    left: 140px
 }
 
 /* Hoovers Hamburger e Shopping Car */
@@ -178,13 +194,16 @@ section {
     
 }
 
-.tree-card svg {
+#triple-box .fa-chevron-right {
     position: absolute;
-    width: 15px;
-    height: 15px;
-    bottom: -40px;
-    margin: 0 0 0 35px
+    font-size: 11px;
+    font-weight: bold;
+    font-weight: 1000;
+    color: var(--vermelho-padrão-bg);
+    top: 186px;
+    left: 133px
 }
+
 
 .tree-card span {
     position: absolute;
@@ -264,6 +283,7 @@ hr {
 
 }
 
+/*
 #lorem-ipsum {
     padding-left: 50px;
     padding-right: 50px;
@@ -274,7 +294,7 @@ hr {
     text-justify: inter-word;
     border: 2px solid #ff0000;
     
-}
+}*/
 
 .container {
     width: 224 px;
@@ -319,12 +339,80 @@ hr {
 }
 
 .double-cards-delivery a {
-    background-color: #ff0000;
-    border: #ff0000;
+    background-color: var(--vermelho-padrão-bg);
+    border: var(--vermelho-padrão-bg);
     margin-top: 20px;
 }
 
 .double-cards-delivery a:hover {
-    background-color: #ff0000;
+    background-color: var(--vermelho-padrão-bg);
     margin-top: 20px;
 }
+
+.bottom-main {
+    width: 100%;
+    position: relative;
+    height: 400px;
+    left: 50px;
+    flex-direction: row;
+}
+
+.title-bottom-main {
+    position: absolute;
+    font-family: Helvetica, sans-serif, Helvetica;
+    font-size: 32px;
+    left: 100px;
+    font-weight: 700;
+}
+
+.text-bottom-main {
+    position: absolute;
+    font-family: Helvetica, sans-serif, Helvetica;
+    font-size: 16px;
+    left: 100px;
+    top: 190px
+}
+
+.bottom-main a {
+    position: absolute;
+    left: 100px;
+    top: 265px;
+    width: 120px;
+    border: var(--vermelho-padrão-bg) solid 5px;
+    background-color: var(--vermelho-padrão-bg);
+    color: #FFFFFF;
+}
+
+.bottom-main a:hover {
+    position: absolute;
+    left: 100px;
+    top: 265px;
+    background-color: var(--vermelho-padrão-bg);
+    color: #FFFFFF;
+}
+
+.bottom-main img {
+    position: absolute;
+    right: 200px;
+}
+
+.benefits-card img {
+    position: absolute;
+    height: 106px;
+    left: 35px;
+    margin-top: 12px;
+}
+
+.footerbox-cidades {
+    display: flex;
+    position: relative;
+    height: 600px;
+    bottom: 0px;
+}
+
+.cidades-col {
+    width: 50px;
+    flex-direction: column;
+    bottom: 0px;
+}
+
