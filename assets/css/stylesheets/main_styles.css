@@ -37,19 +37,79 @@ section {
 
 /*** GLOBAL ***/
 
+.container-topmain {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
 #hamburger-box {
+    display: relative;
+    height: 214px;
+    width: 404px;
+    margin: 0px 15px 0px 0px;
     background-color: #ea1d2c;
     border-radius: 20px;
     transform: scale(1.00);
     transition: 0.20s all ease;
 }
 
-#shoppingcar-box {
+#shopping-box {
+    flex-direction: row;
+    height: 214px;
+    width: 404px;
+    margin: 0px 0px 0px 15px;
     background-color: #b6d048;
     border-radius: 20px;
     transform: scale(1.00);
     transition: 0.20s all ease;
 }
+
+#hamburger-box img, #shopping-box img {
+    width: 225px;
+    height: 169px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+
+#hamburger-box a, #shopping-box a {
+    font-family: Helvetica,Arial, sans-serif;
+    background-color: rgba(0, 0, 0, 0.120);
+    color: white;
+    font-weight: 600;
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    align-items: center;
+    flex-direction: row;
+    width: 146px;
+    height: 36px;
+    border-radius: 15px;
+    bottom: 30px;
+    left: 20px    
+}
+
+.container-topmain .title-box {
+    position: relative;
+    font-weight: 700;
+    color: white;
+    top: 40px;
+    left: 20px;
+    font-size: 32px;
+
+}
+
+#hamburger-box svg, #shopping-box svg {
+    position: absolute;
+    font-size: 5px;
+    color: white;
+    width: auto;
+    bottom: 40px;
+    left: 140px;
+}
+
 /* Hoovers Hamburger e Shopping Car */
 
 #hamburger-box:hover {
@@ -57,16 +117,10 @@ section {
     transition: 0.20s all ease;
 }
 
-#shoppingcar-box:hover {
+#shopping-box:hover {
     transform: scale(1.04);
     transition: 0.20s all ease;
 }
-/*  bkp cores
-
-    amarelo #f6d553
-    rosa    #f9879c
-    roxo    #8c60c5
-*/
 
 #triple-box { /* Container geral */
     position: relative;
@@ -77,8 +131,6 @@ section {
     justify-content: center;
     align-items: center;
 }
-
-
 .tree-card { /* Configuração dos cards */
     width: 188px;
     height: 160px;
@@ -116,9 +168,14 @@ section {
 .bg-rosa {background-color:#f9879c} 
 .bg-roxo {background-color:#8c60c5}
 
-.tree-card figure img {
+.tree-card img {
     position: absolute;
+    padding: 0px;
+    margin: 0px;
+    height: auto;
     bottom: 0px;
+    right: 15%;
+    
 }
 
 .tree-card svg {

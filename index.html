@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./assets/css/stylesheets/main_styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" /> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Delivery de Comida e Mercado - iFood</title>
     <meta name="description" content="O jeito mais fácil de pedir delivery de comida e fazer mercado. Leia avaliações de restaurantes, faça seu pedido pela internet e receba em casa.">
 </head>
@@ -104,48 +104,35 @@
             </div>            
         </div>
     
-        <div class="container-flex row justify-content-center">
-
-            <div class="col-3 me-3 px-4 fw-bold text-white" id="hamburger-box">
-                <div class="row">
-                    <p class="fs-2">Restaurante</p>                    
-                </div>
-                <div class="row text-white">
-                    <div class="col-auto align-itens-end">
-                        <p>Ver opções</p>                        
-                    </div>
-                    <div class="col-1 fw-bolder">
-                        <svg class="" width="20px" height="10px" viewBox="20 20 48 48" xmlns="http://www.w3.org/2000/svg"><title>Seta voltar</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#ffffff" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></polyline></g></g></g></g></svg>
-                    </div>
-                </div>
-                <div class="row justify-content-middle">
-                </div>
-                <div class="col-11">
-                    <div class="row align-itens-end">
-                        <img class="landing-v2-multi-categories-big-link__image landing-v2-multi-categories-big-link__image--restaurant" src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png" alt="Ver opções">
-                    </div>
-                </div>                
+    <div class="container-topmain">
+        <div id="hamburger-box">
+            <div>
+                <span class="title-box">Restaurante</span><br>
+                <a name="" id="" class="btn box-buttons" href="#" role="button">Ver opções</a>
+                <i class="fa-solid fa-chevron-right"></i>
             </div>
-
-            <div class="col-3 ms-3 px-4 fw-bold text-white" id="shoppingcar-box">
-                <div class="row"> 
-                    <p class="fs-2">Mercado</p>
-                </div>
-                <div class="row text-white">
-                    <div class="col-auto align-itens-end">
-                        <p>Buscar lojas</p>                        
-                    </div>
-                    <div class="col-1 fw-bolder">
-                        <svg class="" width="20px" height="10px" viewBox="20 20 48 48" xmlns="http://www.w3.org/2000/svg"><title>Seta voltar</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#ffffff" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></polyline></g></g></g></g></svg>
-                    </div>
-                </div>
-                <div class="col-11">
-                    <div class="row align-itens-end ps-5">
-                        <img class="landing-v2-multi-categories-big-link__image landing-v2-multi-categories-big-link__image--market" src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/market.png" alt="Buscar lojas">
-                    </div>                    
-                </div>
+            <div>
+                <figure>
+                    <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/restaurant.png" alt="hamburguer">
+                </figure>
             </div>
         </div>
+
+        <div id="shopping-box">
+            <div>
+                <span class="title-box">Mercados</span><br>
+                <a name="" id="" class="btn box-buttons" href="#" role="button">Buscar lojas</a>
+                <figure><svg width="48px" height="48px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><title>Seta voltar</title><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round"><g transform="translate(-144.000000, -1296.000000)" stroke="#FFFFFF" stroke-width="3"><g transform="translate(47.000000, 1227.000000)"><g id="Seta-voltar" transform="translate(97.000000, 69.000000)"><polyline id="Path-6" transform="translate(23.500000, 23.500000) rotate(-90.000000) translate(-23.500000, -23.500000) " points="6 16 23.5 31 41 16"></polyline></g></g></g></g></svg></figure>
+            </div>
+            <div >
+                <figure>
+                    <img src="https://static-images.ifood.com.br/image/upload/f_auto/webapp/landingV2/market.png" alt="shopping-card">
+                </figure>
+            </div>
+        </div>
+
+    </div>
+
     </br><br>
 
     <section>
@@ -482,6 +469,7 @@
                 loop: true,
                 margin: 15,
                 nav: true,
+                dots: false,
                 responsive: {
                     0: {
                         items: 1
@@ -550,6 +538,7 @@
     <!-- ----------------------------------------------------- footer ----------------------------------------------------- -->
     <script type="text/javascript" src="./assets/js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="./assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </body>
 
 </html>
