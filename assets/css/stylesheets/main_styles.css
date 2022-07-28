@@ -226,15 +226,6 @@ section {
     transition: 0.20s all ease;
 }
 
-
-hr {
-	border: 0;
-    float: center;
-    margin-left: 2em;
-    max-width: 95%;
-	border-top: 1px solid #747474;
-}
-
 /* Carousel start at line 197 end  */
 
 .carousel-container-flex {
@@ -403,16 +394,53 @@ hr {
     margin-top: 12px;
 }
 
-.footerbox-cidades {
-    display: flex;
+#bottom-itens {
     position: relative;
-    height: 600px;
-    bottom: 0px;
+    height: 390px;
+    width: 100%;
+    margin-top: 234px;    
+    padding-top: 50px;
 }
 
-.cidades-col {
-    width: 50px;
-    flex-direction: column;
-    bottom: 0px;
+#all-cities{
+    position:absolute; 
+    right: 45px;
+    color: var(--vermelho-padrão-bg);
+    font-size: 16px;
+    font-weight: 500;
 }
+
+#explore-cities {
+    position: absolute;
+    left: 45px;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cities-box {
+    position: relative;
+    left: 10px;
+    top: 45px;
+}
+
+.cities-box {
+    display: flex;
+    align-content: flex-start;
+    column-gap: 250px;
+    padding-left: 6px;
+}
+
+.cities-box li {
+    color: #717171;
+    margin-top: 30px;
+    list-style: none;
+}
+
+
+
+
+
+
+
+
 
