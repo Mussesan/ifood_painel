@@ -5,7 +5,7 @@ body, html {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif, bold;
     text-decoration: none !important;
-    --vermelho-padrão-bg: #ea1d2c;
+    --red-default: #ea1d2c
 }
 
 svg {
@@ -18,7 +18,7 @@ section {
 }
 
 *::selection {
-    background: var(--vermelho-padrão-bg);
+    background: var(--red-default);
     color: white;
 }
 
@@ -28,11 +28,11 @@ section {
 
 ::-webkit-scrollbar {
     width: 12px;
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
 }
 
 ::-webkit-scrollbar-thumb{
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
     border-radius: 11px;
 }
 
@@ -46,18 +46,18 @@ section {
 }
 
 #right-menu .btn-criarconta {
-    color: var(--vermelho-padrão-bg);
+    color: var(--red-default);
 }
 
 #right-menu .btn-entrar {
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
     color: white;
     font-weight: 700;
 }
 
 #btn-buscar {
     border-radius: 5px;
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
 }
 
 #hamburger-box {
@@ -65,7 +65,7 @@ section {
     height: 214px;
     width: 404px;
     margin: 0px 15px 0px 0px;
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
     border-radius: 20px;
     transform: scale(1.00);
     transition: 0.20s all ease;
@@ -135,7 +135,7 @@ section {
 
 #shopping-box:hover {
     transform: scale(1.04);
-    transition: 0.20s all ease;
+    transition: 0.20s all ease
 }
 
 #triple-box { /* Container geral */
@@ -145,7 +145,7 @@ section {
     height: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 .tree-card { /* Configuração dos cards */
     width: 188px;
@@ -156,8 +156,7 @@ section {
     display: flex;
     text-align: center;
     transform: scale(1.00);
-    transition: 0.20s all ease;
-    
+    transition: 0.20s all ease
 }
 
 .tree-card:hover { /* Configuração dos cards */
@@ -169,8 +168,7 @@ section {
     display: flex;
     text-align: center;
     transform: scale(1.04);
-    transition: 0.20s all ease;
-    
+    transition: 0.20s all ease    
 }
 
 .bg-amarelo, .bg-rosa, .bg-roxo { /* tamanho e posição do background dos cards */
@@ -178,32 +176,35 @@ section {
     width: 188px;
     height: 44px;
     border-radius: 10px;
-    bottom: 0px;
+    bottom: 0px
 }
+
 .bg-amarelo {background-color:#f6d553} 
 .bg-rosa {background-color:#f9879c} 
 .bg-roxo {background-color:#8c60c5}
 
 .tree-card img {
+    align-self: center;
     position: absolute;
     padding: 0px;
-    margin: 0px;
+    margin-right: auto;
     height: auto;
     bottom: 0px;
-    right: 15%;
-    
 }
+
+#bebidas-card img {right: 22px}
+#farmacia-card img {right: 42px}
+#petshop-card img {right: 21px}
 
 #triple-box .fa-chevron-right {
     position: absolute;
     font-size: 11px;
     font-weight: bold;
     font-weight: 1000;
-    color: var(--vermelho-padrão-bg);
+    color: var(--red-default);
     top: 186px;
     left: 133px
 }
-
 
 .tree-card span {
     position: absolute;
@@ -274,19 +275,6 @@ section {
 
 }
 
-/*
-#lorem-ipsum {
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    text-align: justify;
-    text-justify: inter-word;
-    border: 2px solid #ff0000;
-    
-}*/
-
 .container {
     width: 224 px;
     border-radius: 50%;
@@ -330,13 +318,13 @@ section {
 }
 
 .double-cards-delivery a {
-    background-color: var(--vermelho-padrão-bg);
-    border: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
+    border: var(--red-default);
     margin-top: 20px;
 }
 
 .double-cards-delivery a:hover {
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
     margin-top: 20px;
 }
 
@@ -369,8 +357,8 @@ section {
     left: 100px;
     top: 265px;
     width: 120px;
-    border: var(--vermelho-padrão-bg) solid 5px;
-    background-color: var(--vermelho-padrão-bg);
+    border: var(--red-default) solid 5px;
+    background-color: var(--red-default);
     color: #FFFFFF;
 }
 
@@ -378,7 +366,7 @@ section {
     position: absolute;
     left: 100px;
     top: 265px;
-    background-color: var(--vermelho-padrão-bg);
+    background-color: var(--red-default);
     color: #FFFFFF;
 }
 
@@ -409,7 +397,7 @@ section {
 #all-cities{
     position:absolute; 
     right: 85px;
-    color: var(--vermelho-padrão-bg);
+    color: var(--red-default);
     font-size: 16px;
     font-weight: 500;
 }
