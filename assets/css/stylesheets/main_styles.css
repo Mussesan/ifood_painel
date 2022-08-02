@@ -1,6 +1,6 @@
 /*** GLOBAL ***/
 
-body, html {
+body, html, main {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif, bold;
@@ -265,7 +265,7 @@ section {
     height: 13px;
 }
 
-.btn-carousel {
+/* .btn-carousel {
     width: 33px;
     height: 33px;
     border: 1px #717171 solid;
@@ -273,7 +273,7 @@ section {
     position: sticky;
     transform: translateY(-50%);
 
-}
+} */
 
 .container {
     width: 224 px;
@@ -490,10 +490,42 @@ section {
     width: 75%;
 }
 
-.testing-carousel::after{
-    content:"";
-    background-color: #b6d048;
+/* Carousel 2 buttons */
+
+#carouselproducts {
+    position: relative;
+    background-color: #8c60c5;
 }
+
+.slider-btn {
+    width: 33px;
+    height: 33px;
+    border: 1px #717171 solid;
+    border-radius: 50px;
+}
+
+#containerfotos {
+    width: 75%
+}
+
+#btn-back {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    left: 175px;
+}
+
+#btn-next {
+    position: absolute;
+    display: flex;
+    top: 40%;
+    right: 175px;
+}
+
+#carouselproducts .fa-solid {
+    
+}
+
 
 
 
