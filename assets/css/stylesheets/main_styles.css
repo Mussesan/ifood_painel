@@ -490,4 +490,13 @@ section {
     width: 75%;
 }
 
-/* Carousel 2 buttons */
+.owl-nav {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+}
