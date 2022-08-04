@@ -490,7 +490,18 @@ section {
     width: 75%;
 }
 
-.owl-nav {
+.melhores-restaurantes {
+    margin: 50px 0 50px 0;
+}
+
+.melhores-restaurantes .owl-item {
+    border: 0.01px solid #dfdfdf;
+    width: 239px;
+    height: 132px;
+    border-radius: 10px;
+}
+
+/* .melhores-restaurantes .owl-nav {
     position: absolute;
     top: 0px;
     bottom: 0px;
@@ -499,4 +510,163 @@ section {
     justify-content: space-between;
     right: 0px;
     left: 0px;
+} */
+
+/* .melhores-restaurantes .owl-prev {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+} */
+
+/* .melhores-restaurantes .owl-next {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    right: 0px;
+    left: 0px;
+} */
+
+.melhores-restaurantes .owl-prev span {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    bottom: 0px;
+    top: 45px;    
+    left: -20px;
+    background-color: white;
+    padding: 0 0 40px 0;
+
+    font-size: 23px !important;
+    border: 1px solid #717171;
+    border-radius: 100%;
+}
+.melhores-restaurantes .owl-next span {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    bottom: 0px;
+    top: 45px;    
+    right: -20px;
+    background-color: white;
+    padding: 0 0 40px 0;
+
+    font-size: 23px !important;
+    border: 1px solid #717171;
+    border-radius: 100%;
+}
+
+.melhores-restaurantes img {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    height: 56px;
+    max-width:56px;
+    border-radius: 100%;
+}
+
+.melhores-restaurantes .geral-text-box {
+    position: absolute;
+    top: 40px;
+    left: 70px
+}
+
+.melhores-restaurantes-text-1 {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 14px;
+}
+
+.melhores-restaurantes-text-2 {
+    font-size: 12px;
+    color: #717171;
+}
+
+/* -- Melhores Mercados Carousel --  */
+
+.melhores-mercados {
+    margin: 50px 0 0 0;
+}
+
+.melhores-mercados .owl-item {
+    border: 0.01px solid #dfdfdf;
+    width: 239px;
+    height: 132px;
+    border-radius: 10px;
+}
+
+.melhores-mercados .owl-prev span {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    bottom: 0px;
+    top: 45px;    
+    left: -20px;
+    background-color: white;
+    padding: 0 0 40px 0;
+
+    font-size: 23px !important;
+    border: 1px solid #717171;
+    border-radius: 100%;
+}
+.melhores-mercados .owl-next span {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    bottom: 0px;
+    top: 45px;    
+    right: -20px;
+    background-color: white;
+    padding: 0 0 40px 0;
+
+    font-size: 23px !important;
+    border: 1px solid #717171;
+    border-radius: 100%;
+}
+
+.melhores-mercados img {
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    height: 56px;
+    max-width:56px;
+    border-radius: 100%;
+}
+
+.melhores-mercados .geral-text-box {
+    position: absolute;
+    top: 50px;
+    left: 70px
+}
+
+.melhores-mercados-text-1 {
+    font-family: Helvetica, sans-serif, Arial;
+    font-size: 14px;
+}
+
+.melhores-mercados-text-2 {
+    font-size: 12px;
+    color: #717171;
 }
